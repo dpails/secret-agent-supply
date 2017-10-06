@@ -1,0 +1,156 @@
+html{
+  font-size:18px;
+  font-family: Helvetica;
+}
+
+.banner{
+  background-color: black;
+  width: 100%;
+  text-align: left;
+
+}
+.logo{
+  width:960px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0.66rem 1rem 0.66rem 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height:1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo h1 {
+  font-family: helvetica;
+  font-size: 1rem;
+  color: white;
+  display: inline;
+}
+
+.header{
+  background-image:url("../images/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+  position: relative;
+  background-position: center;
+  width: 100%;
+}
+
+.headcontainer{
+  width: 960px;
+  margin: 0 auto;
+}
+.newarrival{
+  color: white;
+  background-color: black;
+  width: 20rem;
+  padding: 2rem 3rem;
+  text-align: left;
+  position: absolute;
+  margin-top: 9rem;
+}
+
+.newarrival h4{
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.newarrival h2{
+  font-family: helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.25em;
+}
+
+.topnav{
+  background-color: firebrick;
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+nav{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topnav span{
+  color: white;
+}
+
+.midcontainer{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.images{
+  border: 4px solid black;
+  width: 30%;
+  overflow: auto;
+  margin-top: 3rem;
+}
+
+.images img{
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.images p{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/*The images within the boxes are not centered and the suglasses images is overflowing*/
+
+.locationhours{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.locations {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 35%;
+  margin-top: 3rem;
+}
+
+.locations h4{
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 5px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 5rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer p{
+  width: 960px;
+  margin: 0 auto;
+
+}
