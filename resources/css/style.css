@@ -106,6 +106,20 @@ nav{
   padding-bottom: 2rem;
 }
 
+.images-glasses{
+  border: 4px solid black;
+  width: 30%;
+  overflow: auto;
+  margin-top: 3rem;
+}
+
+.images-glasses img{
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-width: 100%
+}
+
 .images p{
   background-color: black;
   color: white;
@@ -114,7 +128,18 @@ nav{
   padding-bottom: 0.5rem;
 }
 
-/*The images within the boxes are not centered and the suglasses images is overflowing*/
+.images-glasses p{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.description{
+  display: flex;
+  justify-content: center;
+}
 
 .locationhours{
   width: 960px;
@@ -152,5 +177,4 @@ nav{
 .footer p{
   width: 960px;
   margin: 0 auto;
-
 }
