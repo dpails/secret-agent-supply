@@ -252,6 +252,10 @@ nav{
 }
 
 @media only screen and (max-width:470px) {
+
+  .header{
+    height:15rem;
+  }
   .newarrival h4{
     font-family: helvetica;
     font-size: 0.77rem;
@@ -269,10 +273,10 @@ nav{
     padding-left: 2rem;
   }
 
-  /*.headcontainer{
+  .headcontainer{
     display: flex;
     align-items: baseline;
-  }*/
+  }
   .midcontainer{
     display: flex;
     justify-content: center;
@@ -299,6 +303,10 @@ nav{
   .locations{
     width: 90%;
     margin-left: 0 auto;
+  }
+
+  .locations:nth-child(2){
+    margin-top: 0;
   }
 
   .footer p{
